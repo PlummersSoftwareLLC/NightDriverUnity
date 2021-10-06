@@ -23,5 +23,7 @@ To create a suitable client for sending data, use the NightDriverStrip's SPECTRU
 I also recommmend that you set
 
     #define INCOMING_CORE           0
+    #define MAX_BUFFERS            30
+    
     
 Construct a display consisting of three 16x16 matrixes in series, and connect them to PIN5 of an M5 ESP32 stick.  Set your WiFi credentials in globals.h, and when run, the client should get (and display) an IP address.  Use this IP in Unity on the LEDSignController object.  With that set you should be able to click Play and have PACMAN scroll across your LED display.  Good luck!

@@ -26,4 +26,8 @@ I also recommmend that you set
     #define MAX_BUFFERS            30
     
     
-Construct a display consisting of three 16x16 matrixes in series, and connect them to PIN5 of an M5 ESP32 stick.  Set your WiFi credentials in globals.h, and when run, the client should get (and display) an IP address.  Use this IP in Unity on the LEDSignController object.  With that set you should be able to click Play and have PACMAN scroll across your LED display.  Good luck!
+Construct a display consisting of three 16x16 matrixes in series, and connect them to PIN5 of an M5 ESP32 stick.  Set your WiFi credentials in globals.h, and when run, the client should get (and display) an IP address.  Use this IP in Unity on the LEDSignController object.  With that set you should be able to click Play and have PACMAN scroll across your LED display.  
+
+Open the Unity project (likely in a 2019 version or later) and open the Simple Demo scene.  Right next to Main Camera is a Game Object to which is attached the Video Player and the LED Sign Controller that you are concerned with.
+
+Good luck!

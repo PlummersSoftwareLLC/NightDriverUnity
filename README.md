@@ -5,7 +5,7 @@ See [Discussions](https://github.com/PlummersSoftwareLLC/NightDriverUnity/discus
 See source code and [COPYING.txt](COPYING.txt) for detailed technical and licensing information including versions.
 
 ## What NightDriverUnity is:
-NightDriverUnity is a set of scripts for Unity that you can attach to a standard VideoPlayer object.  You then set the IP address, dimensions, and framerate and when you press play the video in question will be streamed to the NightDriverStrip located at that IP address.
+NightDriverUnity is a set of scripts for Unity that you can attach to a standard `VideoPlayer` object.  You then set the IP address, dimensions, and framerate and when you press play the video in question will be streamed to the [NightDriverStrip](https://github.com/PlummersSoftwareLLC/NightDriverStrip) located at that IP address.
 
 To create a suitable client for sending data, use the NightDriverStrip's SPECTRUM config, with the following changes:
 ```cpp

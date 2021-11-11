@@ -1,7 +1,7 @@
 NightDriverUnity
 ================
 
-The NightDriveUnity project is reall a "demo" of how to create a server applicaion, in this case using C# an Unity, to drive NightDriverStrip instances remotely by WiFi.
+The NightDriveUnity project is really a "demo" of how to create a server applicaion, in this case using C# an Unity, to drive NightDriverStrip instances remotely by WiFi.
 
 You are welcome and encouraged to party and adapt this code as needed.  My hope for this little project is that it can grow into something useful for people, enabling them to write LED control code in Unity rather than more complex environments.
 
